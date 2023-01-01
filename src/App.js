@@ -11,7 +11,7 @@ import NotFound from './pages/NotFound';
 
 const client = new ApolloClient({
   cache: new InMemoryCache(),
-  uri: 'http://localhost:5000/graphql'
+  uri: 'https://mern-blog-test-backend.onrender.com/graphql'
 });
 
 function App() {
